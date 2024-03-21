@@ -17,9 +17,9 @@ module.exports = {
 
       const corpse = new Item(area, {
         id: 'corpse',
-        name: `corpse of ${name}`,
-        roomDesc: `the corpse of ${name}`,
-        description: `The rotting corpse of ${name}`,
+        name: `a ${name} that appears dead`,
+        roomDesc: `a ${name} that appears dead`,
+        description: `A ${name} that appears dead`,
         keywords: keywords.concat(['corpse']),
         type: 'CONTAINER',
         metadata: {
